@@ -16,35 +16,63 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" />
 <!-- wow -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/home/attora/Websites/New GL/Artistpage.css">
+<link rel="stylesheet" type="text/css" href="/home/attora/Websites/New GL/css/Artistpage.css">
 <script type="text/javascript" src="/home/attora/Websites/New GL/artistnav.js"></script>
 
 </head>
 <body>
-  <!-- Nav -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header" style="margin-left: 300px;">
-        <a class="navbar-brand" href="file:///home/attora/Websites/New%20GL/index.html"><img src="http://i.imgur.com/p2IBRJQ.png?1" class="animated slideInLeft" style="margin-top: -10px; "></a>
-      </div>
-      <ul class="nav navbar-nav" style="margin-left: 300px;">
-        <li class="two hvr-underline-reveal"><a class="navtext" href="/home/attora/Websites/New%20GL/index.html">HOME</a></li>
-        <li class="two hvr-underline-reveal"><a class="navtext" href="/home/attora/Websites/New GL/artistpage.html">ARTISTS</a></li>
-        <li class="two hvr-underline-reveal"><a class="navtext" href="#">CHARITIES</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right" style="margin-right: 80px;">
-        <li><i class="fa fa-shopping-cart fa-lg" style="color: white; margin-top: 16px; margin-right: -8px;"></i></li>
-        <li class="hvr-underline-reveal"><a class="navtext cart"href="#">CART</a></li>
-        <li class="hvr-underline-reveal"><a class="navtext dashboard" href="#">DASHBOARD</a></li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+  <div class="container-fluid"   style="background-color: rgba(129,11,45,0.9);">
+    <class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header" style="margin-left: 50px;">
+          <a class="navbar-brand" href="/home/attora/Websites/New%20GL/index.html"><img src="http://i.imgur.com/p2IBRJQ.png?1" class="animated slideInLeft" style="margin-top: -10px; "></a>
         </div>
-      </form>
+        <ul class="nav navbar-nav navbar-right" style="margin-right: 50px;">
+          <li class="hvr-underline-reveal"><a class="navtext cart">CART</a></li>
+          <li class="hvr-underline-reveal"><a class="navtext dashboard">DASHBOARD</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right" style="margin-right: 30px;">
+          <li class="two hvr-underline-reveal"><a class="navtext" href="/home/attora/Websites/New%20GL/index.html">HOME</a></li>
+          <li class="two hvr-underline-reveal"><a class="navtext" href="/home/attora/Websites/New GL/artistpage.html">ARTISTS</a></li>
+          <li class="two hvr-underline-reveal"><a class="navtext" href="#">CHARITIES</a></li>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+        </form>
+      </div>
+  <!-- End Nav -->
+
+  <!-- Social -->
+    <div class="container socialmedia">
+      <div class=" facebook slideleft">
+        <i class="fa fa-facebook fa-2x"></i>
+      </div>
+      <div class=" instagram slideleft">
+        <i class="fa fa-instagram fa-2x"></i>
+      </div>
+      <div class=" twitter slideleft">
+        <i class="fa fa-twitter fa-2x"></i>
+      </div>
     </div>
-  </nav>
-<!-- End Nav -->
+    <!-- end social -->
+
+  <!-- cart -->
+    <div id="myCartDash" class="cartdash">
+      <h2 class="cartHeader"> Cart </h2>
+      <a href="javascript:void(0)" style="position: fixed; margin-top: 2.3%;" class="closebtn"></a>
+        <div class="container cartWrapper">
+          <div class="row">
+
+            <div class="cartItem col-md-6">
+            </div>
+            <div class="cartItem col-md-6">
+            </div>
+          </div>
+        </div>
+    </div>
+  <!-- end cart -->
 
 
 <div class="container" style="width: 100%; margin-top: 100px;">
@@ -163,27 +191,31 @@
 
 
 <!-- FOOTER -->
-  <div class="container-fluid footer">
-    <div class="w3-row">
+<div class="container-fluid footer">
+  <div class="w3-row">
+    <div class="w3-col s4">
+      <h2>Contact Us</h2>
+      <ul>
+        <li> Phone: </li>
+        <li> Email: </li>
+        <li> Address: </li>
+      </ul>
+    </div>
+    <div class="w3-col s4">
+      <h2> Instagram</h2>
+        <p> Social Media news can go here.</p>
+    </div>
       <div class="w3-col s4">
-        <h2>Contact Us</h2>
-        <ul style="list-style:none;">
-          <li> Phone: </li>
-          <li> Email: </li>
-          <li> Address: </li>
-        </ul>
-      </div>
-      <div class="w3-col s4">
-        <h2> Instagram</h2>
-
-      </div>
-        <div class="w3-col s4">
-        <h2> Navigation</h2>
+      <h2> Navigation</h2>
+      <ul>
+        <li><a href="/home/attora/Websites/New GL/index.html">Home</a></li>
+        <li><a href="/home/attora/Websites/New GL/artistshomepage/artistshomepage.component.html">Artist</a></li>
+        <li><a href="#">charities</a></li>
 
 
-      </div>
     </div>
   </div>
+</div>
 <!-- FOOTER -->
 
 
